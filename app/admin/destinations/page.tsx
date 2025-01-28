@@ -145,6 +145,7 @@ const AdminDestinationsPage = () => {
                     <img
                       className="mask mask-square w-20 h-12.5 rounded-lg"
                       src={destination.image}
+                      alt={destination.country}
                     />
                   </td>
                   <td>{destination.country}</td>

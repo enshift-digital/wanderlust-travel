@@ -55,7 +55,10 @@ export default function DashboardLayout({
               </div>
               <div className="btn btn-circle avatar">
                 <div className="rounded-full">
-                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  <img
+                    alt="avatar"
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                  />
                 </div>
               </div>
             </div>

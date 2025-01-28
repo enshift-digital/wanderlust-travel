@@ -153,6 +153,7 @@ const AdminPackagesPage = () => {
                 <tr key={index}>
                   <td>
                     <img
+                      alt={packageData.name}
                       className="mask mask-square w-20 h-12.5 rounded-lg"
                       src={packageData.image}
                     />
