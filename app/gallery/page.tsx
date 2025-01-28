@@ -3,12 +3,8 @@ import NavbarComponent from "@/Components/NavbarComponent";
 import FooterComponent from "@/Components/FooterComponent";
 
 // Importing the google fonts
-import { Dosis, Lexend, Pattaya } from "next/font/google";
+import { Dosis, Pattaya } from "next/font/google";
 const dosis = Dosis({
-  subsets: ["latin"],
-  display: "swap",
-});
-const lexend = Lexend({
   subsets: ["latin"],
   display: "swap",
 });
