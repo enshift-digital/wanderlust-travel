@@ -13,15 +13,10 @@ import BookingModal from "@/Components/AdminPanel/BookingModal";
 import DeleteConfirmModal from "@/Components/AdminPanel/DeleteConfirmModal";
 
 // Importing the google fonts
-import { Lexend, Pattaya } from "next/font/google";
+import { Lexend } from "next/font/google";
 const lexend = Lexend({
   subsets: ["latin"],
   display: "swap",
-});
-const pattaya = Pattaya({
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
 });
 
 const AdminBookingsPage = () => {
