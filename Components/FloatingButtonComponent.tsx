@@ -26,7 +26,7 @@ const FloatingButtonComponent = () => {
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       className={`${
         isScrolled ? "opacity-100" : "opacity-0"
-      } fixed btn btn-circle btn-xl duration-100 transition-opacity border-none shadow-none bg-(--color1) btn-info right-5 lg:right-10 bottom-5 lg:bottom-10`}
+      } fixed z-50 btn btn-circle btn-xl duration-100 transition-opacity border-none shadow-none bg-(--color1) btn-info right-5 lg:right-10 bottom-5 lg:bottom-10`}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
