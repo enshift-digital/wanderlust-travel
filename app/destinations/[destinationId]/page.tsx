@@ -95,26 +95,25 @@ const PackagesPage = () => {
       <section className="px-8 lg:px-24 py-16">
         <div className="flex justify-between items-center mb-12">
           <select
-            defaultValue={currentDestination?.country}
+            defaultValue={
+              destinationId == "all" ? "all" : currentDestination?.id
+            }
             className="select lg:hidden"
             onChange={(event) => {
               const selectedValue = event.target.value;
-              if (selectedValue === "redirect") {
-                router.push("/destinations");
+              if (selectedValue === "all") {
+                router.push("/destinations/all");
               } else {
                 router.push(`/destinations/${selectedValue}`);
               }
             }}
           >
-            <option disabled={true} value="Pick a country">
-              Pick a country
-            </option>
+            <option value="all">All Countries</option>
             {TravelDestinations.map((destination, index) => (
               <option key={index} value={destination.id}>
                 {destination.country}
               </option>
             ))}
-            <option value="redirect">View All Destinations</option>
           </select>
           <div
             role="tablist"
