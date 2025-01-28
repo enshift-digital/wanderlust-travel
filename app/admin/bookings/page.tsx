@@ -166,7 +166,7 @@ const AdminBookingsPage = () => {
                         deleteData={
                           BookingsData.find(
                             (booking) => booking.id === selectedBookingId
-                          )?.name!
+                          )?.name ?? "Booking Null"
                         }
                       />
                     </dialog>
