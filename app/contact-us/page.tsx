@@ -92,12 +92,13 @@ const ContactPage = () => {
             <p
               className={`${dosis.className} text-xl text-gray-400 pr-8 lg:pr-24 mt-4`}
             >
-              Get in touch with us today! We're here to answer your questions,
-              provide guidance, and help you achieve your goals. Whether you
-              need support, advice, or services tailored to your needs, we’re
-              just a message away. Your success is our priority—reach out
-              anytime!
+              Get in touch with us today! We&rsquo;re here to answer your
+              questions, provide guidance, and help you achieve your goals.
+              Whether you need support, advice, or services tailored to your
+              needs, we&rsquo;re just a message away. Your success is our
+              priority—reach out anytime!
             </p>
+
             <div className="flex flex-col lg:flex-row gap-10 mt-8">
               <div className="flex gap-4">
                 <svg

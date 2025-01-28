@@ -361,7 +361,7 @@ export default function Home() {
                 </h1>
                 <p className={`${dosis.className} text-xl mb-5 font-light`}>
                   We specialize in crafting unforgettable travel experiences,
-                  whether you're dreaming of serene beaches, thrilling
+                  whether you&rsquo;re dreaming of serene beaches, thrilling
                   adventures, or exploring hidden gems around the globe. Let us
                   take the stress out of planning and turn your travel dreams
                   into reality.
@@ -371,7 +371,7 @@ export default function Home() {
                   <br />
                   The horizon awaits!
                   <br />
-                  Contact us today and let's plan your perfect getaway!
+                  Contact us today and let&rsquo;s plan your perfect getaway!
                 </p>
                 <Link
                   href="/contact-us"

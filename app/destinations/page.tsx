@@ -43,7 +43,7 @@ const DestinationsPage = () => {
         </div>
       </section>
       <h2 className={`${dosis.className} text-center text-4xl mt-10 mx-12`}>
-        " Discover Your Next Adventure "
+        &ldquo; Discover Your Next Adventure &rdquo;
       </h2>
       <section className="px-8 lg:24 2xl:px-40 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">

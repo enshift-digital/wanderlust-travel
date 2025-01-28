@@ -202,7 +202,7 @@ const PackagePage = () => {
           <div className="px-6 py-12 bg-(--color3)/60 rounded-xl">
             <h3 className={`${lexend.className} text-4xl`}>Book Your Tour</h3>
             <p className={`${dosis.className} text-xl text-gray-600`}>
-              We'll contact you soon
+              We&rsquo;ll contact you soon
             </p>
             <div className="flex flex-col gap-3 mt-8">
               <input

@@ -90,7 +90,7 @@ const PackagesPage = () => {
         </div>
       </section>
       <h2 className={`${dosis.className} text-center text-4xl mt-10 mx-12`}>
-        " Tailored Packages for Every Traveler "
+        &ldquo; Tailored Packages for Every Traveler &rdquo;
       </h2>
       <section className="px-8 lg:px-24 py-16">
         <div className="flex justify-between items-center mb-12">

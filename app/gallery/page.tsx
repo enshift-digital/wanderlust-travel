@@ -35,7 +35,7 @@ const GalleryPage = () => {
         </div>
       </section>
       <h2 className={`${dosis.className} text-center text-4xl mt-10 mx-12`}>
-        " Find magic in every journey "
+        &ldquo; Find magic in every journey &rdquo;
       </h2>
       <section className="px-8 lg:px-24 2xl:px-40 py-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-4 group">
