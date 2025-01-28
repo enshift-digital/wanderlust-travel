@@ -13,11 +13,7 @@ import BookingModal from "@/Components/AdminPanel/BookingModal";
 import DeleteConfirmModal from "@/Components/AdminPanel/DeleteConfirmModal";
 
 // Importing the google fonts
-import { Dosis, Lexend, Pattaya } from "next/font/google";
-const dosis = Dosis({
-  subsets: ["latin"],
-  display: "swap",
-});
+import { Lexend, Pattaya } from "next/font/google";
 const lexend = Lexend({
   subsets: ["latin"],
   display: "swap",

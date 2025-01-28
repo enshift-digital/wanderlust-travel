@@ -2,7 +2,7 @@
 import React from "react";
 
 // Importing the google fonts
-import { Dosis, Lexend, Pattaya } from "next/font/google";
+import { Dosis, Lexend } from "next/font/google";
 const dosis = Dosis({
   subsets: ["latin"],
   display: "swap",
@@ -10,11 +10,6 @@ const dosis = Dosis({
 const lexend = Lexend({
   subsets: ["latin"],
   display: "swap",
-});
-const pattaya = Pattaya({
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
 });
 
 const AdminHomePage = () => {

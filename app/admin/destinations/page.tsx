@@ -11,19 +11,10 @@ import DestinationModal from "@/Components/AdminPanel/DestinationModal";
 import DeleteConfirmModal from "@/Components/AdminPanel/DeleteConfirmModal";
 
 // Importing the google fonts
-import { Dosis, Lexend, Pattaya } from "next/font/google";
-const dosis = Dosis({
-  subsets: ["latin"],
-  display: "swap",
-});
+import { Lexend } from "next/font/google";
 const lexend = Lexend({
   subsets: ["latin"],
   display: "swap",
-});
-const pattaya = Pattaya({
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
 });
 
 // Defining the structure of a travel destination
