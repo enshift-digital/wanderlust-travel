@@ -1,21 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  --background: #fff;
+  --foreground: #000;
+  --color1: #ff6f61; /* Buttons/CTAs */
+  --color2: #f7b7a3; /* Background */
+  --color3: #f9e79f; /* Highlight Sections */
+  --color4: #a3d9b1; /* Navigation Bar/Accents */
+  --color5: #2e8b57; /* Footer/Text */
 }
