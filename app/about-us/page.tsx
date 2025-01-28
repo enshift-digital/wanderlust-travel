@@ -3,6 +3,7 @@
 // Importing necessary libraries
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
+import Image from "next/image";
 
 // Importing necessary components
 import TestimonialComponent from "@/Components/TestimonialComponent";
@@ -85,15 +86,19 @@ const AboutPage = () => {
           <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
             <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
               <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
-                <img
+                <Image
+                  width={384}
+                  height={384}
                   className="h-96 w-full rounded-xl object-cover"
-                  src="AboutPage/about1.jpg"
+                  src="/AboutPage/about1.jpg"
                   alt="about Us image"
                 />
               </div>
-              <img
+              <Image
+                width={384}
+                height={384}
                 className="h-96 w-full sm:ml-0 ml-auto rounded-xl object-cover"
-                src="AboutPage/about2.jpg"
+                src="/AboutPage/about2.jpg"
                 alt="about Us image"
               />
             </div>
@@ -283,65 +288,89 @@ const AboutPage = () => {
       </section>
       <section className="flex flex-col gap-6 w-full my-32">
         <Marquee direction="right">
-          <img
-            src="AboutPage/MarqueeLogos/airlines/airline1.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/airlines/airline1.png"
             alt="airline1"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/airlines/airline2.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/airlines/airline2.png"
             alt="airline2"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/airlines/airline3.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/airlines/airline3.png"
             alt="airline3"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/airlines/airline4.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/airlines/airline4.png"
             alt="airline4"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/airlines/airline5.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/airlines/airline5.png"
             alt="airline5"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/airlines/airline6.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/airlines/airline6.png"
             alt="airline6"
             className="h-24 mx-12"
           />
         </Marquee>
         <Marquee>
-          <img
-            src="AboutPage/MarqueeLogos/hotels/hotel1.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/hotels/hotel1.png"
             alt="hotel1"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/hotels/hotel2.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/hotels/hotel2.png"
             alt="hotel2"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/hotels/hotel3.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/hotels/hotel3.png"
             alt="hotel3"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/hotels/hotel4.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/hotels/hotel4.png"
             alt="hotel4"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/hotels/hotel5.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/hotels/hotel5.png"
             alt="hotel5"
             className="h-24 mx-12"
           />
-          <img
-            src="AboutPage/MarqueeLogos/hotels/hotel6.png"
+          <Image
+            width={150}
+            height={150}
+            src="/AboutPage/MarqueeLogos/hotels/hotel6.png"
             alt="hotel6"
             className="h-24 mx-12"
           />

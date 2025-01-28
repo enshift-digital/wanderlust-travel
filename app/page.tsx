@@ -3,6 +3,7 @@
 // Importing necessary libraries
 import Link from "next/link";
 import { Navigation } from "swiper/modules";
+import Image from "next/image";
 
 // Importing necessary components
 import DestinationComponent from "@/Components/DestinationComponent";
@@ -99,10 +100,11 @@ export default function Home() {
           </h2>
           <div className="flex flex-col lg:flex-row mt-12">
             <div className="flex flex-col items-center text-center px-10 py-4">
-              <img
+              <Image
+                width={64}
+                height={64}
                 src="/HomePage/feature-icons/hiking.png"
                 alt="hiking"
-                className="w-16 h-16"
               />
               <h3 className={`${lexend.className} text-xl mt-6`}>
                 Tailored Adventures
@@ -114,10 +116,11 @@ export default function Home() {
             </div>
             <div className="divider divider-vertical lg:divider-horizontal"></div>
             <div className="flex flex-col items-center text-center px-10 py-4">
-              <img
+              <Image
+                width={64}
+                height={64}
                 src="/HomePage/feature-icons/customer-care.png"
                 alt="customer-care"
-                className="w-16 h-16"
               />
               <h3 className={`${lexend.className} text-xl mt-6`}>
                 Always Here for You
@@ -128,10 +131,11 @@ export default function Home() {
             </div>
             <div className="divider divider-vertical lg:divider-horizontal"></div>
             <div className="flex flex-col items-center text-center px-10 py-4">
-              <img
+              <Image
+                width={64}
+                height={64}
                 src="/HomePage/feature-icons/value.png"
                 alt="value"
-                className="w-16 h-16"
               />
               <h3 className={`${lexend.className} text-xl mt-6`}>
                 Unbeatable Value
@@ -142,10 +146,11 @@ export default function Home() {
             </div>
             <div className="divider divider-vertical lg:divider-horizontal"></div>
             <div className="flex flex-col items-center text-center px-10 py-4">
-              <img
+              <Image
+                width={64}
+                height={64}
                 src="/HomePage/feature-icons/mission.png"
                 alt="mission"
-                className="w-16 h-16"
               />
               <h3 className={`${lexend.className} text-xl mt-6`}>
                 Travel with Purpose
@@ -350,7 +355,12 @@ export default function Home() {
             <div className="hero-overlay"></div>
             <div className="hero-content text-neutral-content flex flex-col lg:flex-row text-center bg-(--color2)/10 backdrop-blur-lg p-12 rounded-2xl">
               <div>
-                <img src="/HomePage/flight.png" alt="" className="w-lg" />
+                <Image
+                  width={512}
+                  height={512}
+                  src="/HomePage/flight.png"
+                  alt=""
+                />
               </div>
               <div className="divider divider-horizontal"></div>
               <div className="max-w-md">

@@ -1,5 +1,6 @@
 // Importing necessary libraries
 import Link from "next/link";
+import Image from "next/image";
 
 // Importing necessary components
 import NavbarComponent from "@/Components/NavbarComponent";
@@ -205,32 +206,40 @@ const ContactPage = () => {
                   className="tooltip w-10 h-10"
                   data-tip="Facebook"
                 >
-                  <img
-                    src="ContactPage/social-icons/facebook.png"
+                  <Image
+                    width={40}
+                    height={40}
+                    src="/ContactPage/social-icons/facebook.png"
                     alt="facebook"
-                  ></img>
+                  />
                 </Link>
                 <Link
                   href="#"
                   className="tooltip w-10 h-10"
                   data-tip="Instagram"
                 >
-                  <img
-                    src="ContactPage/social-icons/instagram.png"
+                  <Image
+                    width={40}
+                    height={40}
+                    src="/ContactPage/social-icons/instagram.png"
                     alt="instagram"
-                  ></img>
+                  />
                 </Link>
                 <Link href="#" className="tooltip w-10 h-10" data-tip="Tiktok">
-                  <img
-                    src="ContactPage/social-icons/tiktok.png"
+                  <Image
+                    width={40}
+                    height={40}
+                    src="/ContactPage/social-icons/tiktok.png"
                     alt="tiktok"
-                  ></img>
+                  />
                 </Link>
                 <Link href="#" className="tooltip w-10 h-10" data-tip="Youtube">
-                  <img
-                    src="ContactPage/social-icons/youtube.png"
+                  <Image
+                    width={40}
+                    height={40}
+                    src="/ContactPage/social-icons/youtube.png"
                     alt="youtube"
-                  ></img>
+                  />
                 </Link>
               </div>
             </div>
@@ -325,8 +334,10 @@ const ContactPage = () => {
         </section>
         <section className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
           <div className="basis-1/2 h-96 shadow-xl rounded-4xl ring-2 ring-gray-400">
-            <img
-              src="ContactPage/map.png"
+            <Image
+              width={1000}
+              height={1000}
+              src="/ContactPage/map.png"
               alt="map"
               className="w-full h-full object-cover rounded-4xl"
             />
