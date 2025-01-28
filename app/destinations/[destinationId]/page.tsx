@@ -166,7 +166,7 @@ const PackagesPage = () => {
             </svg>
           </label>
         </div>
-        <div className="grid grid-cols-1 w-full lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 w-full lg:grid-cols-3 2xl:grid-cols-4 gap-6">
           {destinationId.toLowerCase() === "all"
             ? searchFilteredTravelPackages.map((packageData, index) => (
                 <PackageComponent key={index} packageData={packageData} />
