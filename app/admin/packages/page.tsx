@@ -245,7 +245,7 @@ const AdminPackagesPage = () => {
                           TravelPackages.find(
                             (packageDate) =>
                               packageDate.id === selectedPackageId
-                          )?.name!
+                          )?.name ?? "Package Null"
                         }
                       />
                     </dialog>

@@ -218,7 +218,7 @@ const AdminDestinationsPage = () => {
                           TravelDestinations.find(
                             (destination) =>
                               destination.id === selectedCategoryId
-                          )?.country!
+                          )?.country ?? "Country Null"
                         }
                       />
                     </dialog>
