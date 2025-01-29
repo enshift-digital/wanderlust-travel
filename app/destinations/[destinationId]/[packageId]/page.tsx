@@ -65,7 +65,7 @@ const PackagePage = () => {
           </div>
         </div>
       </section>
-      <section className="px-8 lg:px-36 py-24 flex gap-16 flex-col-reverse lg:flex-row">
+      <section className="px-8 lg:px-20 2xl:px-36 py-24 flex gap-16 flex-col-reverse lg:flex-row">
         <section className="basis-8/12">
           <h1 className={`${pattaya.className} text-5xl`}>
             {currentPackage?.name}
